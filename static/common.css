@@ -1,0 +1,449 @@
+@charset "utf-8";
+
+/*Properties=======================================================
+margin-top
+margin-right
+margin-bottom
+margin-left
+margin
+padding-top
+padding-right
+padding-bottom
+padding-left
+padding
+border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+border-width
+border-top-color
+border-right-color
+border-bottom-color
+border-left-color
+border-color
+border-top-style
+border-right-style
+border-bottom-style
+border-left-style
+border-style
+border-top
+border-bottom
+border-right
+border-left
+border
+display
+position
+top
+right
+bottom
+left
+float
+clear
+z-index
+direction
+unicode-bidi
+width
+min-width
+max-width
+height
+min-height
+max-height
+line-height
+vertical-align
+overflow
+clip
+visibility
+content
+compact
+run-in
+quotes
+marker-offset
+list-style-type
+list-style-image
+list-style-position
+list-style
+size
+marks
+page-break-before
+page-break-after
+page-break-inside
+page
+orphans
+widows
+color
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background
+font-family
+font-style
+font-variant
+font-weight
+font-stretch
+font-size
+font-size-adjust
+font
+text-indent
+text-align
+text-decoration
+text-shadow
+letter-spacing
+word-spacing
+text-transform
+white-space
+table-layout
+empty-cells
+speak-header
+cursor
+outline
+volume
+speak
+pause-before
+pause-after
+pause
+cue-before
+cue-after
+cue
+play-during
+azimuth
+elevation
+speech-rate
+voice-family
+pitch
+pitch-range
+stress
+richness
+speak-punctuation
+speak-numeral
+=================================================================*/
+
+
+/*=================================================================
+absolute
+active
+after
+aqua
+armenian
+auto
+before
+black
+block
+blue
+bold
+both
+capitalize
+center
+circle
+cjk-ideographic
+dashed
+decimal
+decimal-leading-zero
+disc
+div
+div#
+dotted
+double
+fixed
+fuchsia
+georgian
+gray
+green
+groove
+hebrew
+hidden
+hiragana
+hiragana-iroha
+hover
+inline
+inset
+justfy
+katakana
+katakana-iroha
+left
+lime
+lower-alpha
+lower-greek
+lower-latin
+lower-roman
+lowercase
+maroon
+navy
+no-repeat
+none
+normal
+olive
+orange
+outset
+overline
+purple
+red
+relative
+repeat
+repeat-x
+repeat-y
+ridge
+right
+silver
+solid
+square
+static
+teal
+transparent
+underline
+upper-alpha
+upper-latin
+upper-roman
+uppercase
+white
+yellow
+small
+x-small
+=================================================================*/
+
+/*--------------------------------------
+  main contener
+---------------------------------------*/
+
+body {
+  text-align: center;
+  background-color: #ffffff;
+  
+}
+
+div#header {
+  text-align: center;
+}
+
+
+div#content,
+div#footer {
+  margin: auto;
+  width: 816px;
+  text-align: left;
+  
+}
+
+div#footer {
+  text-align: center;
+}
+
+/*--------------------------------------
+  div#header
+---------------------------------------*/
+
+div#header {
+  padding-top: 6px;
+  position: relative;
+  
+}
+div#header h1 {
+  margin: 0 8px;
+  padding: 20px 10px 0px 10px;
+  
+}
+
+div#header h1 img {
+  vertical-align: bottom;
+  border: none;
+  
+}
+
+div#header p {
+  padding: 0px 10px 50px 10px;
+  
+}
+
+
+/*--------------------------------------
+  content
+---------------------------------------*/
+
+div#content {
+  padding-bottom: 0.4em;
+  
+}
+
+/*--------------------------------------
+  main
+---------------------------------------*/
+div#content div#main {
+  margin: 0 0 50px 0;
+  display: inline;
+  float: right;
+  width: 610px;
+  
+}
+
+div#content div#main h2 {
+  padding: 10px 0px 0px 0px;
+  background: url(img/bg_line-dot.gif) left top repeat-x;
+  
+}
+
+/*--------------------------------------
+  recentEntries
+---------------------------------------*/
+
+div#main div#recentEntries {
+  float: left;
+  width: 410px;
+  
+}
+
+
+div#main div#recentEntries ul.info {
+  margin: 0 0 0 10px;
+  padding: 0;
+  
+}
+
+div#main div#recentEntries ul.info li {
+  margin: 0 10px 0 0;
+  display: inline;
+  color: #aaaaaa;
+  font-size: 85%;
+  
+}
+
+
+/*--------------------------------------
+  rightside
+---------------------------------------*/
+
+div#main div#rightside {
+  margin: 0;
+  display: inline;
+  float: right;
+  width: 170px;
+}
+
+div#main div#rightside h2 {
+  color: #80af00;
+  background: none;
+  
+}
+
+div#main div#rightside ul {
+  margin-left: 5px;
+  
+}
+
+div#main div#rightside ul li {
+  margin: 0.2em 0;
+  list-style-type: circle;
+  
+}
+
+div#main div#rightside ul li a {
+  color: #999999;
+  text-decoration: none;
+}
+
+
+
+/*--------------------------------------
+  leftside
+---------------------------------------*/
+
+div#content dl#leftside {
+  margin: 10px 0 0 18px;
+  padding: 0;
+  display: inline;
+  float: left;
+  width: 150px;
+}
+
+div#content dl#leftside dt {
+  margin: 0;
+  padding: 0 8px;
+  color: #ffffff;
+  background-color: #a6a7a5;
+  font-size: 85%;
+  text-transform: uppercase;
+  
+}
+
+div#content dl#leftside dd {
+  margin: 0 0 0.6em 0;
+  padding: 0.2em 0;
+  background-color: #f5f5f5;
+  
+}
+
+div#content dl#leftside ul {
+  margin: 0;
+  padding: 0;
+  width: 178px;
+  
+}
+
+div#content dl#leftside ul li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+  
+}
+
+div#content dl#leftside ul li a {
+  padding: 2px 10px;
+  border-bottom: 1px solid #eeeeee;
+  display: block;
+  position: relative;
+  color: #666666;
+  font-size: 12px;
+}
+
+div#content dl#leftside a {
+  color: #999999;
+  text-decoration: none;
+}
+
+/* when on mousu */
+div#content dl#leftside ul li a:hover {
+  color: #cd4730;
+  background-color: #ffffff;
+  
+}
+
+/*--------------------------------------
+  p.return
+---------------------------------------*/
+
+div#content p.return {
+  margin: 0px;
+  padding-right: 20px;
+  clear: both;
+  text-align: center;
+  
+}
+
+
+
+/*--------------------------------------
+  footer
+---------------------------------------*/
+
+div#footer {
+  padding: 1px 20px;
+  
+}
+
+div#footer ul#pagination li {
+  margin: 0 1em;
+  display: inline;
+  
+}
+
+div#footer ul#pagination li a font {
+  color: #777777;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+
+
+
+/* end div#footer */

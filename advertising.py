@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+# *-# -*- coding: utf-8 -*-
+
+ALL_AD_LIST = [
+  '<a href="http://www.amazon.co.jp/gp/product/B003M0OFAG?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003M0OFAG"><img src="http://ecx.images-amazon.com/images/I/512fYua4-7L._SX500_CR80,10,150,350_.jpg" alt="化物語 戦場ヶ原ひたぎ (1/8スケールPVC塗装済み完成品)" width="150 height="350" border="0" />化物語 戦場ヶ原ひたぎ (1/8スケールPVC塗装済み完成品)</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003JPAOEU?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003JPAOEU"><img src="http://ecx.images-amazon.com/images/I/51mToiXzN1L._CR130,80,150,350.jpg" alt="FORMANIA サザビー" width="150 height="350" border="0" />FORMANIA サザビー</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003JKJEUU?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003JKJEUU"><img src="http://ecx.images-amazon.com/images/I/314M-mtd7JL._SX500_CR20,10,150,350_.jpg" alt="Creators Labo CL#025 新世紀エヴァンゲリオン 綾波レイ ver.2 (ノンスケールPVC塗装済み完成品)" width="150 height="350" border="0" />Creators Labo CL#025 新世紀エヴァンゲリオン 綾波レイ ver.2 (ノンスケールPVC塗装済み完成品)</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B0040V5LOK?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B0040V5LOK"><img src="http://ecx.images-amazon.com/images/I/31KTvRAB3JL._SX300_CR30,10,150,350_.jpg" alt="ヱヴァンゲリヲン新劇場版:破 式波・アスカ・ラングレー【エプロンVer.】 (1/10スケール PVC塗装済み完成品)" width="150 height="350" border="0" />ヱヴァンゲリヲン新劇場版:破 式波・アスカ・ラングレー【エプロンVer.】 (1/10スケール PVC塗装済み完成品)</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003OTINRG?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003OTINRG"><img src="http://ecx.images-amazon.com/images/I/51RXnuOvjHL._SX600_CR170,50,150,350_.jpg" alt="MG 1/100 PMX-003 ジ・O (機動戦士Zガンダム)" width="150 height="350" border="0" />MG 1/100 PMX-003 ジ・O (機動戦士Zガンダム)</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B0032ZD5RK?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B0032ZD5RK"><img src="http://ecx.images-amazon.com/images/I/41oCv%2BHT5kL._SX600_CR150,20,150,350_.jpg" alt="メガサイズモデル 1/48 RX-78-2 ガンダム (機動戦士ガンダム)" width="150 height="350" border="0" />メガサイズモデル 1/48 RX-78-2 ガンダム (機動戦士ガンダム)</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003FG64X8?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003FG64X8"><img src="http://ecx.images-amazon.com/images/I/416BCoxojxL._SX300_CR30,10,150,350_.jpg" alt="ワンピースシリーズNEO-DX ボア・ハンコック" width="150 height="350" border="0" />ワンピースシリーズNEO-DX ボア・ハンコック</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B002V8GXBO?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B002V8GXBO"><img src="http://ecx.images-amazon.com/images/I/41CKr1gDh3L._SX300_CR30,10,150,350_.jpg" alt="ROBOT魂 エヴァンゲリオン2号機" width="150 height="350" border="0" />ROBOT魂 エヴァンゲリオン2号機</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B0042VJ5E0?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B0042VJ5E0"><img src="http://ecx.images-amazon.com/images/I/41pEmg2kVzL._SX280_CR0,0,150,350_.jpg" alt="リボルテックヤマグチ No.98 次元大介" width="150 height="350" border="0" />リボルテックヤマグチ No.98 次元大介</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003MTBJSI?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003MTBJSI"><img src="http://ecx.images-amazon.com/images/I/41BBIT4jaIL._SX400_CR90,70,150,350_.jpg" alt="スーパーロボット超合金 グレートマジンガー" width="150 height="350" border="0" />スーパーロボット超合金 グレートマジンガー</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B0044WVGA8?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B0044WVGA8"><img src="http://ecx.images-amazon.com/images/I/41giJIIHEPL._SX400_CR115,120,150,350_.jpg" alt="ROBOT魂  エルガイム Mk-II" width="150 height="350" border="0" />ROBOT魂  エルガイム Mk-II</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003RITV5W?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003RITV5W"><img src="http://ecx.images-amazon.com/images/I/41gd5BhtIgL._SX400_CR30,20,150,350_.jpg" alt="CL#026 新世紀エヴァンゲリオン 惣流・アスカ・ラングレー (ノンスケールPVC塗装済み完成品)" width="150 height="350" border="0" />CL#026 新世紀エヴァンゲリオン 惣流・アスカ・ラングレー (ノンスケールPVC塗装済み完成品)</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003YUBDH2?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003YUBDH2"><img src="http://ecx.images-amazon.com/images/I/41E-1HMDWIL._SX400_CR120,80,150,350_.jpg" alt="リボルテックヤマグチ No.97 ルパン三世" width="150 height="350" border="0" />リボルテックヤマグチ No.97 ルパン三世</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B00451A1ZO?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B00451A1ZO"><img src="http://ecx.images-amazon.com/images/I/31K%2BUc1rppL._SX400_CR90,20,150,350_.jpg" alt="figma ヱヴァンゲリヲン新劇場版:破 綾波レイ プラグスーツver." width="150 height="350" border="0" />figma ヱヴァンゲリヲン新劇場版:破 綾波レイ プラグスーツver.</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B0011F4PLS?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B0011F4PLS"><img src="http://ecx.images-amazon.com/images/I/51UgT2I3ZXL._SX400_CR80,10,150,350_.jpg" alt="1/144 エンゲージSR1 [通常版]" width="150 height="350" border="0" />1/144 エンゲージSR1 [通常版]</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003RWSIUM?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003RWSIUM"><img src="http://ecx.images-amazon.com/images/I/41-KERuhtJL._SX400_CR90,10,150,350_.jpg" alt="figma サマーウォーズ キング・カズマ" width="150 height="350" border="0" />figma サマーウォーズ キング・カズマ</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B0046EDDV4?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B0046EDDV4"><img src="http://ecx.images-amazon.com/images/I/41jwmoJkN1L._SX280_CR15,0,150,350_.jpg" alt="The Spirit Collection of Inoue Takehiko スラムダンク Vol.1 桜木花道" width="150 height="350" border="0" />The Spirit Collection of Inoue Takehiko スラムダンク Vol.1 桜木花道</a>',
+  '<a href="http://www.amazon.co.jp/gp/product/B003LIUVQ6?ie=UTF8&tag=matomatochan2-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003LIUVQ6"><img src="http://ecx.images-amazon.com/images/I/413ZwjivlwL._SX400_CR80,20,150,350_.jpg" alt="Portrait.Of.Pirates ワンピース STRONG EDITION ロロノア・ゾロVer.2" width="150 height="350" border="0" />Portrait.Of.Pirates ワンピース STRONG EDITION ロロノア・ゾロVer.2</a>',
+  ]
+
+def get_random(amount=3):
+  import random
+  ad_list = random.sample(ALL_AD_LIST, amount)
+  return "<br />".join(ad_list)
+
+
+# print len(ALL_AD_LIST)
+# print get_random()
+# 同時に出したくない広告の処理

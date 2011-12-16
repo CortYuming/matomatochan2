@@ -1,0 +1,4 @@
+cron:
+- description: cron crawl
+  url: /cron/crowl
+  schedule: every 13 minutes
